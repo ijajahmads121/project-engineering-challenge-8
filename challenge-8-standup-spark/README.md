@@ -66,3 +66,11 @@ The backend reads `OPENROUTER_API_KEY` only from the environment. Never commit `
 ## Verification
 
 The backend health check is available at `/health`. The generation route is `POST /api/standup` with a JSON body such as `{ "notes": "Fixed the cache bug\nNeed design feedback" }`.
+
+## Submission Checklist
+
+- [x] Frontend accepts rough notes and shows loading, error, and success states.
+- [x] AI integration is backend-only and reads the key from environment variables.
+- [x] Health endpoint and local demo fallback are included for verification.
+- [x] Monthly cost arithmetic and intentional exclusions are documented.
+- [ ] Add final live deployment URLs after hosting configuration.
